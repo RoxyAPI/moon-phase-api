@@ -1,0 +1,15 @@
+{
+  "name": "moon-phase-api",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "Moon phase API. Current phase, illumination, age, sign, degree plus upcoming phases and calendar by year and month.",
+  "license": "MIT",
+  "dependencies": {
+    "@roxyapi/sdk": "^1.2.33"
+  },
+  "scripts": {
+    "ts": "bun example.ts",
+    "js": "node example.js"
+  }
+}
