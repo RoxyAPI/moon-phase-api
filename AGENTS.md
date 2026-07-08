@@ -6,7 +6,7 @@ This repo teaches AI coding agents (Cursor, Claude Code, Aider, Codex, Windsurf,
 - Method: `GET`
 - URL: `https://roxyapi.com/api/v2/astrology/moon-phase/current`
 - Auth: `X-API-Key` header
-- Domain: `astrology` (one of 12 in the RoxyAPI catalog)
+- Domain: `astrology` (one of 12+ in the RoxyAPI catalog)
 - Operation ID: `getCurrentMoonPhase` matches the SDK method name in camelCase
 - MCP tool: `get_astrology_moon_phase_current` on `https://roxyapi.com/mcp/astrology`
 
