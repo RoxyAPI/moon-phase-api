@@ -2,29 +2,29 @@
 
 # Moon Phase API
 
-> Current moon phase with illumination, lunar age, zodiac sign, and degree, plus upcoming phases and a full lunar calendar. One key covers 12 spiritual domains. MCP-first, no local setup required.
+> Current moon phase with illumination, lunar age, zodiac sign, and degree, plus upcoming phases and a full lunar calendar. One key covers 12+ spiritual domains. MCP-first, no local setup required.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
 [![Methodology](https://img.shields.io/badge/Methodology-NASA_JPL_verified-f59e0b?style=for-the-badge&logo=nasa&logoColor=white)](https://roxyapi.com/methodology)
 [![MCP Server](https://img.shields.io/badge/MCP_Server-Streamable_HTTP-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)](https://roxyapi.com/docs/mcp)
-[![SDK](https://img.shields.io/badge/SDK-TypeScript_+_Python-3b82f6?style=for-the-badge&logo=npm&logoColor=white)](https://roxyapi.com/docs/sdk)
+[![SDK](https://img.shields.io/badge/SDK-TypeScript_+_Python_+_PHP_+_C%23_+_Go_+_WordPress-3b82f6?style=for-the-badge&logo=npm&logoColor=white)](https://roxyapi.com/docs/sdk)
 
 ## What is Moon Phase API
 
-The RoxyAPI moon phase endpoint returns the current lunar phase with illumination percentage, lunar age in days since the new moon, the tropical zodiac sign the Moon occupies, its degree, and distance from Earth. Phase names cover the full lunar cycle from New Moon through Waxing Crescent, First Quarter, Waxing Gibbous, Full Moon, Waning Gibbous, Last Quarter, and Waning Crescent. Each call can also return a moon phase meaning with energy direction and keywords, ideal for moon tracking apps, lunar calendars, and astrology widgets. One RoxyAPI subscription covers 12 spiritual domains, all positions powered by Roxy Ephemeris, verified against NASA JPL Horizons.
+The RoxyAPI moon phase endpoint returns the current lunar phase with illumination percentage, lunar age in days since the new moon, the tropical zodiac sign the Moon occupies, its degree, and distance from Earth. Phase names cover the full lunar cycle from New Moon through Waxing Crescent, First Quarter, Waxing Gibbous, Full Moon, Waning Gibbous, Last Quarter, and Waning Crescent. Each call can also return a moon phase meaning with energy direction and keywords, ideal for moon tracking apps, lunar calendars, and astrology widgets. One RoxyAPI subscription covers 12+ spiritual domains, all positions powered by Roxy Ephemeris, verified against NASA JPL Horizons.
 
 ## Why this API
 
 | Property | Value |
 |----------|-------|
-| Coverage | 12 spiritual domains in one subscription |
+| Coverage | 12+ spiritual domains in one subscription |
 | Calculation | Roxy Ephemeris, verified against NASA JPL Horizons |
 | MCP server | `https://roxyapi.com/mcp/astrology` (Streamable HTTP, no local setup) |
-| SDKs | TypeScript on npm `@roxyapi/sdk`, Python on PyPI `roxy-sdk` |
+| SDKs | TypeScript on npm `@roxyapi/sdk`, Python on PyPI `roxy-sdk`, PHP on Packagist `roxyapi/sdk`, C# on NuGet `RoxyApi.Sdk`, Go `github.com/RoxyAPI/sdk-go`, WordPress plugin `roxyapi` |
 | Pricing | One key, flat per call, $39 for 25K calls |
 | Licensing | Personal and commercial use, including closed source apps. No AGPL or GPL entanglement. [Full terms](https://roxyapi.com/policy/license) |
-| Last verified | 2026-Q2 |
+| Last verified | 2026-Q3 |
 
 ## Quick start
 
@@ -196,6 +196,10 @@ This repo ships an [AGENTS.md](AGENTS.md) execution playbook. Cursor, Claude Cod
 - [Full API reference](https://roxyapi.com/api-reference) interactive Scalar UI
 - [TypeScript SDK on npm](https://www.npmjs.com/package/@roxyapi/sdk)
 - [Python SDK on PyPI](https://pypi.org/project/roxy-sdk/)
+- [PHP SDK on Packagist](https://packagist.org/packages/roxyapi/sdk)
+- [C# SDK on NuGet](https://www.nuget.org/packages/RoxyApi.Sdk)
+- [Go SDK on pkg.go.dev](https://pkg.go.dev/github.com/RoxyAPI/sdk-go)
+- [WordPress plugin](https://wordpress.org/plugins/roxyapi/)
 - [llms.txt](https://roxyapi.com/llms.txt) full LLM citation index
 - [Top level AGENTS.md](https://roxyapi.com/AGENTS.md)
 
